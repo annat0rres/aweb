@@ -49,3 +49,11 @@ body{
     left: 150px;
     top: -25px;
 }
+
+.retangulo{
+    background-color: black;
+    opacity: 50%;
+    position: relative;
+    left: 300px;
+    top: -25px;
+}
