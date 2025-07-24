@@ -53,6 +53,8 @@ body{
 .retangulo{
     background-color: black;
     opacity: 50%;
+    width: 70px;
+    height: 200vh;
     position: relative;
     left: 300px;
     top: -25px;
