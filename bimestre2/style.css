@@ -3,3 +3,6 @@
     padding: 0;
 }
 
+#section1, #section2, #section3, #section4, #section5{
+    margin: 10px;
+}
