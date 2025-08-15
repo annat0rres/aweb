@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anna Clara</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
 </head>
 <body>
     <header class="cabecario">
-        <img id='logo' src="imagens/4.png">
+        <img id='logo' src="assets/img/4.png">
         <nav>
             <ul class="sections">
                 <li onclick="window.location.href='#SobreMim'"><i class='icons-sections fa-solid fa-circle-user'></i>Sobre mim</li>
-                <li><i class="icons-sections fa-solid fa-circle-info"></i>Curiosidades</li>
-                <li><i class="icons-sections fa-solid fa-comments"></i>Causos</li>
-                <li><i class="icons-sections fa-solid fa-desktop"></i>Portfólio</li>
-                <li><i class="icons-sections fa-solid fa-check-to-slot"></i>Rotina</li>
+                <li onclick="window.location.href='#Curiosidades'"><i class='icons-sections fa-solid fa-circle-info'></i>Curiosidades</li>
+                <li onclick="window.location.href='#Causos'"><i class="icons-sections fa-solid fa-comments"></i>Causos</li>
+                <li onclick="window.location.href='#Portfolio'"><i class="icons-sections fa-solid fa-desktop"></i>Portfólio</li>
+                <li onclick="window.location.href='#Rotina'"><i class="icons-sections fa-solid fa-check-to-slot"></i>Rotina</li>
             </ul>
         </nav>
     </header>
@@ -24,25 +24,183 @@
         <span id="title">Olá.   Seja bem vindo<em>!</em></span>
         <p>Eu me chamo <em><strong>Anna</strong></em>, sou estudante do 3° ano de Informática do IFRN <br> Ceará-Mirim e você está prestes a me conhecer melhor!</p>
         <button id="botaoSobreMim" onclick="window.location.href='#SobreMim'">Saiba mais</button>
-        <img id="foto-hero" src="imagens/7.png">
+        
+        <img id="foto-hero" src="assets/img/7.png">
     </section>
-
     <section id="SobreMim">
         <p id="titulo-sm">Anna Clara</p>
         <p id="subtitulo-sm">17 anos, Téc em Informática 3/4, Extremoz-RN</p>
-        <p id="p1-sm">Meus principais hobbies são: treinar, estudar, cantar, ouvir música (meu artista favorito é o Frank Ocean) e assistir filmes/séries/animes/desenhos animados. Minha cor favorita é rosa e eu amo doces. Meu curso dos sonhos é Tecnologia da Informação</p>
+        <p id="p1-sm">Meus principais hobbies são: treinar, estudar, cantar, ouvir música e assistir filmes/séries/animes<br>/desenhos animados. Minha cor favorita é rosa e eu amo doces. Meu curso dos sonhos é Tecnologia da Informação na UFRN.</p>
         <p id="p2-sm">Na escola, eu faço parte do NEABI (Núcleo de Estudos Afrobrasileiros e Indígenas), atualmente sou bolsista de extensão de um dos Projetos do Núcleo. Também faço parte da Robótica.</p>
         <figure>
-                <img id='ft-sobremim' src="imagens/9.png">
-                <img id="flor-deco" src="imagens/flor.png">
+                <img id='ft-sobremim' src="assets/img/9.png">
+                <img id="flor-deco" src="assets/img/flor.png">
         </figure>
-        <button id="botaoCurios" onclick="window.location.href='#Curiosidades'">Ver curiosidades</button>
+        <!-- <button id="botaoCurios" onclick="window.location.href='#Curiosidades'">Ver curiosidades</button> -->
+         <span id="msc-fav">Música favorita<br>no momento:</span>
         <figure>
-            <img id="musicafav" src="imagens/musicafav.png">
+            <a href="https://open.spotify.com/intl-pt/track/0bHer4P44xn8jcyMH0EMs8?si=e3e2a87400274b17" target="_blank">
+                <img id="musicafav" src="assets/img/musicafav.png">
+            </a>
         </figure>
-
-    <section id="Curiosidades">
-        
     </section>
-        
+    <section id="Curiosidades">
+        <figure>
+            <img id="little-anna" src="assets/img/12.png">
+            <img id="brother" src="assets/img/13.png">
+            <img id="smiling" src="assets/img/14.png">
+        </figure>
+        <ul id="lista-curiosidades">
+            <li>୨ৎ <strong>Canto desde os 5 anos</strong>, comecei no coral da cidade e continuei na igreja</li>
+            <li>୨ৎ Meu artista favorito é <strong>Frank Ocean</strong> e meu gênero musical favorito é R&B</li>
+            <li>୨ৎ <strong>Uso aparelho dentário desde os 11 anos</strong> porque meus dois dentes da frente eram separados</li>
+            <li>୨ৎ Sou a <strong>irmã mais velha</strong> depois de 16 anos sendo filha única</li>
+            <li>୨ৎ Fui <strong>aluna laureada</strong> na 9° série</li>
+        </ul>
+    </section>
+    <section id="Causos">
+        <div id="fundo">
+            <h1 id="title-causo">Recentemente...</h1>
+            <p id="causo">Eu geralmente pego o Ônibus às 5h30 para chegar na escola, mas nesse dia, perdi a noçao do tempo e acordei era 5h20. Ok, fiquei tranquila porque poderia pegar o ônibus das 6h. Acontece que, eu me atrasei de novo e tive que pegar o das 6h30, e até aí ok de novo. Quando eu ia chegando na parada, um microonibus estava saindo e infelizmente não consegui pegar. Nisso, já era umas 7h10. Como tava demorando muito para aparecer outro, fui comprar salgado, eu cheguei a ver o Cabral vindo e pedi parada, mas o motorista só simplesmente me ignorou e eu tive que esperar mais 40min pra pegar. Fiquei indignada, no que era pra eu chegar de 7h na escola, cheguei era 8h40. Nesse dia, perdi 4 ônibus.</p>
+        </div>
+        <img id="flor2" src="assets/img/flor.png">
+        <img id="flor3" src="assets/img/flor.png">
+        <img id="flor4" src="assets/img/flor.png">
+        <img id="flor5" src="assets/img/flor.png">
+    </section>
+    <section id="Portfolio">
+        <div id="card1">
+            <img id="card-estudos" src="assets/img/annafotossite/card1.jpg">
+            <h1 id="card1-title">Estudar</h1>
+            <p id="card1-text">
+                Fiquei mais motivada a manter a constância nos estudos no período que estava estudando para o IFRN. Estudar para mim é um hobbie, e eu amo fazê-lo. Amo anotar, amo aprender coisas novas e amo organização.
+            </p>
+        </div>
+        <div id="card2">
+            <img id="card-leitura" src="assets/img/annafotossite/card2.jpg">
+            <h1 id="card2-title">Ler</h1>
+            <p id="card2-text">
+                Desde criança, lia gibis da Turma da Mônica que minha tia levava quando ia me visitar. O gosto por leitura só aumentou e hoje em dia, ler para mim é, se conectar com novos mundos e ideias. É fenomenal.
+            </p>
+        </div>
+        <div id="card3">
+            <img id="card-cantar" src="assets/img/annafotossite/card3.jpg">
+            <h1 id="card3-title">Cantar</h1>
+            <p id="card3-text">Canto desde que me entendo por gente e eu amo fazer isso. Canto na Igreja Católica até hoje, apesar de um pouco afastada atualmente, sigo amando cantar e inclusive fazer covers com amigos.</p>
+        </div>
+        <div id="card4">
+            <img id="card-amigos" src="assets/img/annafotossite/card4.jpg">
+            <h1 id="card4-title">Tempo de qualidade</h1>
+            <p id="card4-text">Eu amo passar o tempo com os meus amigos. Sou uma garota bem tagarela e que valoriza um tempo de qualidade com as pessoas que eu amo. Sempre que tenho a oportunidade, planejo coisas para fazermos juntos.</p>
+        </div>
+    </section>
+    <section id="Rotina">
+        <table id="tab-rotina">
+            <tr>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th>
+                <th>Quinta</th>
+                <th>Sexta</th>
+                <th>Sábado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr>
+                <td>Ir pra escola</td>
+                <td>Ir pra escola</td>
+                <td>Ir pra escola</td>
+                <td>Ir pra escola</td>
+                <td>Ir pra escola</td>
+                <td>Org/Autocuidado</td>
+                <td>Org/Autocuidado</td>
+            </tr>
+            <tr>
+                <td>Estudos + Bolsa de Ext.</td>
+                <td>Estudos + Bolsa de Ext.</td>
+                <td>Estudos + Bolsa de Ext.</td>
+                <td>Estudos + Bolsa de Ext.</td>
+                <td>Estudos + Bolsa de Ext.</td>
+                <td>Estudos</td>
+                <td>Estudos</td>
+            </tr>
+            <tr>
+                <td>Estudos + Bolsa de Ext.</td>
+                <td>Estudos + Bolsa de Ext.</td>
+                <td>Reunião do P.I</td>
+                <td>Estudos + Bolsa de Ext.</td>
+                <td>Reunião do NEABI</td>
+                <td>Academia</td>
+                <td>Estudos</td>
+            </tr>
+            <tr>
+                <td>Almoço</td>
+                <td>Almoço</td>
+                <td>Almoço</td>
+                <td>Almoço</td>
+                <td>Almoço</td>
+                <td>Almoço</td>
+                <td>Almoço</td>
+            </tr>
+            <tr>
+                <td>Aulas IF</td>
+                <td>Aulas IF</td>
+                <td>Aulas IF</td>
+                <td>Aulas IF</td>
+                <td>Aulas IF</td>
+                <td>Estudos</td>
+                <td>Estudos</td>
+            </tr>
+            <tr>
+                <td>Ir pra casa</td>
+                <td>Ir pra casa</td>
+                <td>Ir pra casa</td>
+                <td>Ir pra casa</td>
+                <td>Ir pra casa</td>
+                <td>Autocuidado</td>
+                <td>Estudos</td>
+            </tr>
+            <tr>
+                <td>Academia</td>
+                <td>Academia</td>
+                <td>Academia</td>
+                <td>Academia</td>
+                <td>Academia</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+            <tr>
+                <td>Dormir</td>
+                <td>Dormir</td>
+                <td>Dormir</td>
+                <td>Dormir</td>
+                <td>Dormir</td>
+                <td>Dormir</td>
+                <td>Dormir</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <div id="col1">
+            <ul id="mapa">
+                <li> <a href="#hero">Home</a></li>
+                <li><a href="#SobreMim">Sobre mim</a></li>
+                <li><a href="#Curiosidades">Curiosidades</a></li>
+                <li><a href="#Causos">Causos</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Rotina">Rotina</a></li>
+            </ul>
+        </div>
+        <div id="col2">
+            <h3 id="redes-title">Você pode me achar:</h3>
+            <ul id="redes">
+                <li><a href="https://www.instagram.com/ann4clsra" target="_blank"><i class="social fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=anna.torres@escolar.ifrn.edu.br" target="_blank"><i class="social fa-solid fa-envelope"></i></a></li>
+                <li><a href="https://pin.it/2CNPn4Bz8" target="_blank"><i class="social fa-brands fa-pinterest"></i></a></li>
+                <li><a href="https://github.com/annat0rres" target="_blank"><i class="social fab fa-github"></i></a></li>
+            </ul>
+        </div>
+        <div id="linha">
+            <h1 id="copyright">Copyright © Anna Clara, 2025</h1>
+        </div>
+    </footer>
 </html>
