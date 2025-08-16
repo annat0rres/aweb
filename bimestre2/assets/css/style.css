@@ -484,7 +484,6 @@ footer{
     height: 35px;
     position:relative;
     left: 550px;
-    top: -130px;
 }
 
 #mapa, #redes{
@@ -500,29 +499,37 @@ footer{
 #redes, #redes-title{
     position: relative;
     top: 120px;
+    color: #A61C4F;
 }
 
 #redes li{
     display: inline-block;
 }
-footer a, #col2{
+
+#mapa, #redes{
     color: #A61C4F;
 }
 
-footer a:hover, .social:hover{
+#mapa a:hover, .social:hover{
     color: #FA8FAF;
-    text-align: center;
+}
+
+#mapa a{
+    text-decoration: none;
+    color: inherit;
 }
 
 .social{
     font-size: 30px;
+    color: inherit;
+    color: #A61C4F;
 }
+
 #copyright{
     color: #A61C4F;
     font-size: 18px;
     position: absolute;
-    left: 80px;
-    top: 60px;
+    left: 60px;
+    top: -30px;
+    font-weight: bolder;
 }
-
-
